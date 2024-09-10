@@ -1,7 +1,7 @@
 require "sinatra"
 require "sinatra/reloader"
 require "http"
-require "json"
+
 
 get("/") do
   access_exchange_key= ENV.fetch("EXCHANGE_RATE_KEY")
